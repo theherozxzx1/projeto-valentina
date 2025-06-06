@@ -1,0 +1,742 @@
+[
+  {
+    "image": "valentina_dataset_01.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Direct perfect frontal portrait, completely neutral relaxed expression, professional studio headshot setup, soft even ring lighting illuminating facial features uniformly, clean white seamless background, flmft photo style, ultra-sharp crystal clear focus on facial bone structure and skin texture, commercial portrait photography, 85mm lens focal length, medium format camera quality",
+    "seed": 42,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_02.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Frontal view with gentle subtle natural smile showing slight lip curve, soft warm window lighting from left side, professional beauty portrait photography setup, neutral clean background, flmft photo style, detailed sharp facial features highlighting cheekbone definition and eye shape, elegant refined composition, high-end fashion magazine photography style",
+    "seed": 43,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_03.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Perfect direct frontal headshot, serene confident expression with relaxed facial muscles, professional studio ring lighting setup creating even illumination, white seamless photography background, flmft photo style, crystal clear facial details emphasizing eye shape and lip fullness, professional model portfolio photoshoot quality, medium format digital camera precision",
+    "seed": 44,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_04.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Direct frontal close-up portrait, natural genuine warm smile with teeth slightly visible, soft diffused lighting setup, clean neutral background, flmft photo style, emphasis on large almond-shaped eyes and facial symmetry, beauty photography masterpiece with skin texture detail, 85mm portrait lens compression",
+    "seed": 45,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_05.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Three-quarter angle portrait turned 30 degrees to left, gentle warm authentic smile, natural golden hour lighting from window, sophisticated beauty photography studio setup, flmft photo style, sharp facial contours highlighting jawline definition and cheekbone prominence, professional editorial style photography",
+    "seed": 46,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_06.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Slight three-quarter turn to left showing right side profile, confident serene expression with relaxed features, soft studio lighting setup with key light and fill, professional portrait neutral background, flmft photo style, detailed eye contact showing eye shape and eyebrow arch, facial bone structure emphasis",
+    "seed": 47,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_07.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Three-quarter right angle showing left side profile, thoughtful contemplative expression with slight head tilt, soft window lighting creating gentle shadows, editorial portrait photography style, flmft photo style, emphasizing facial bone structure definition, nose bridge line, and jawline contour",
+    "seed": 48,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_08.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Subtle three-quarter pose with 45-degree angle, natural candid warm smile expression, outdoor natural daylight lighting, lifestyle portrait photography setting, flmft photo style, authentic facial expression showing natural beauty, hair movement and volume visible, skin texture and tone natural",
+    "seed": 49,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_09.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Perfect side profile portrait showing complete facial contour, serene peaceful expression with closed or looking away, dramatic side lighting setup creating depth, dark neutral background, flmft photo style, emphasizing complete jawline curve, nose bridge profile, lip shape from side, artistic portrait photography style",
+    "seed": 50,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_10.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Semi-profile angle at 60 degrees, natural peaceful expression looking slightly away, golden hour outdoor natural lighting, lifestyle portrait photography, flmft photo style, beautiful skin texture visible, hair flowing naturally with volume and waves, facial profile contour definition clear",
+    "seed": 51,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_11.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Intimate beauty close-up portrait focusing on face only, professional ring lighting setup, flawless skin texture clearly visible, minimal natural makeup enhancing features, flmft photo style, ultra-detailed facial features with eye catchlight, skin pore detail, lip texture, eyebrow hair definition",
+    "seed": 52,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_12.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Beauty close-up headshot, soft romantic lighting setup, natural radiant skin with healthy glow, minimal makeup enhancing natural beauty, flmft photo style, focus on large almond-shaped eyes, full lips with cupid's bow, skin texture and facial bone structure, professional beauty photography",
+    "seed": 53,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_13.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Thoughtful introspective expression with slight furrowed brow, soft window lighting creating mood, artistic portrait photography setup, sophisticated atmospheric mood, flmft photo style, contemplative and elegant pose showing personality, facial expression detail, eye direction and focus",
+    "seed": 54,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_14.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Joyful genuine hearty laughter expression with eyes slightly closed, natural outdoor lighting setup, candid lifestyle moment capture, spontaneous portrait photography style, flmft photo style, radiant authentic emotion showing happiness, facial muscle movement, natural expression lines",
+    "seed": 55,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_15.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Confident professional business expression with direct eye contact, corporate studio lighting setup, business portrait photography, clean modern neutral background, flmft photo style, approachable yet authoritative demeanor, professional headshot quality, facial expression conveying competence",
+    "seed": 56,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_16.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Looking over shoulder pose with head turned back, dramatic cinematic lighting setup, high-fashion portrait photography style, elegant sophisticated mysterious mood, flmft photo style, striking composition emphasizing facial profile and neck line, hair movement and volume, artistic fashion photography",
+    "seed": 57,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_17.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Head tilted slightly to right side at 15-degree angle, soft romantic golden hour lighting, beauty portrait photography setup, graceful feminine expression with slight smile, flmft photo style, refined and delicate mood, facial angle showing cheekbone definition, hair fall naturally",
+    "seed": 58,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_18.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Hair flowing naturally with gentle movement, outdoor portrait session with natural breeze effect, natural daylight photography, flmft photo style, movement and life in composition, hair texture and volume visible, facial expression natural and relaxed, skin tone in natural light",
+    "seed": 59,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_19.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Hands gently touching face in elegant pose, artistic beauty portrait photography, soft studio lighting setup, intimate and graceful positioning, flmft photo style, emphasizing facial features and natural grace, hand positioning complementing facial structure, sophisticated artistic composition",
+    "seed": 60,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  },
+  {
+    "image": "valentina_dataset_20.png",
+    "prompt": "Valentina Moreau, a stunning 25-year-old woman with extremely distinctive and consistent facial features. Perfect oval harmonious face with delicately defined jawline and naturally prominent well-defined cheekbones. Large expressive almond-shaped dark brown eyes with long natural eyelashes, perfectly arched and well-defined eyebrows. Full plump carnuous lips with pronounced cupid's bow in natural pink tone. Straight proportional nose slightly tapered at the tip. Flawless golden-Mediterranean skin tone with smooth radiant texture and healthy luminous glow. Medium length dark brown hair with natural golden honey highlights, voluminous natural waves with medium-high density, subtle layers creating natural movement reaching shoulders. Curvy harmonious body type with generous natural bust approximately D-DD cup, well-defined proportionally narrow waist, rounded hips in harmony with bust. NO tattoos, clean smooth skin. Confident naturally elegant posture and bearing. Relaxed casual natural expression with authentic warm smile, everyday natural lighting conditions, lifestyle portrait photography style, flmft photo style, genuine approachable personality showing through expression, natural facial positioning, authentic moment capture, skin and hair in natural state",
+    "seed": 61,
+    "steps": 50,
+    "guidance": 6.0,
+    "resolution": "1024x1024",
+    "base_model": "black-forest-labs/FLUX.1-dev",
+    "architecture": "4-LoRA Sequential Identity-Optimized",
+    "optimization_focus": "facial_identity_consistency",
+    "lora_1_realism": {
+      "id": "XLabs-AI/flux-RealismLora",
+      "weight": 0.9,
+      "purpose": "Photorealism enhancement"
+    },
+    "lora_2_antiblur": {
+      "id": "Shakker-Labs/FLUX.1-dev-LoRA-AntiBlur",
+      "weight": 0.7,
+      "purpose": "Sharp facial details"
+    },
+    "lora_3_filmfoto": {
+      "id": "alvdansen/flux_film_foto",
+      "weight": 0.6,
+      "purpose": "Film photography texture"
+    },
+    "lora_4_midjourney": {
+      "enabled": true,
+      "filename": "midjourney_LORA.safetensors",
+      "weight": 0.5,
+      "purpose": "Cinematic quality enhancement"
+    },
+    "trigger_words": "flmft photo style",
+    "dataset_purpose": "facial_identity_training",
+    "seed_strategy": "sequential_close_range",
+    "facial_consistency": "maximum_optimization",
+    "quality_tier": "IDENTITY_OPTIMIZED"
+  }
+]
